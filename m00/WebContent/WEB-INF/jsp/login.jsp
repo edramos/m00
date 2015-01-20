@@ -58,8 +58,8 @@
 		</div>
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
-			<label class="control-label visible-ie8 visible-ie9">Username</label>
-			<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
+			<label class="control-label visible-ie8 visible-ie9">Usuario</label>
+			<input class="form-control form-control-solid placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="username"/>
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Password</label>
@@ -373,8 +373,8 @@
 			 Ingresa tu informacion de cuenta:
 		</p>
 		<div class="form-group">
-			<label class="control-label visible-ie8 visible-ie9">Username</label>
-			<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Username" name="username"/>
+			<label class="control-label visible-ie8 visible-ie9">Usuario</label>
+			<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Usuario" name="username"/>
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Password</label>
@@ -382,7 +382,7 @@
 		</div>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Re-ingresa tu Password</label>
-			<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Re-type Your Password" name="rpassword"/>
+			<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Re-ingresa tu Password" name="rpassword"/>
 		</div>
 		<div class="form-group margin-top-20 margin-bottom-20">
 			<label class="check">
