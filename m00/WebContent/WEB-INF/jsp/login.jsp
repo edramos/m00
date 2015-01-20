@@ -2,6 +2,8 @@
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+
 <html lang="en">
 <!--<![endif]-->
 <!-- BEGIN HEAD -->
@@ -49,12 +51,11 @@
 <!-- BEGIN LOGIN -->
 <div class="content">
 	<!-- BEGIN LOGIN FORM -->
-	<form class="login-form" action="index.html" method="post">
+	<form:form class="login-form" action="login" method="post">
 		<h3 class="form-title">Sign In</h3>
 		<div class="alert alert-danger display-hide">
 			<button class="close" data-close="alert"></button>
-			<span>
-			Por favor, vuelve a introducir tu contraseña. </span>
+			<span>Por favor, ingresar datos. </span>
 		</div>
 		<div class="form-group">
 			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
@@ -93,7 +94,7 @@
 				<a href="javascript:;" id="register-btn" class="uppercase">Crear una cuenta</a>
 			</p>
 		</div>
-	</form>
+	</form:form>
 	<!-- END LOGIN FORM -->
 	<!-- BEGIN FORGOT PASSWORD FORM -->
 	<form class="forget-form" action="index.html" method="post">
