@@ -97,10 +97,8 @@
 	<!-- END LOGIN FORM -->
 	<!-- BEGIN FORGOT PASSWORD FORM -->
 	<form class="forget-form" action="index.html" method="post">
-		<h3>Forget Password ?</h3>
-		<p>
-			 Enter your e-mail address below to reset your password.
-		</p>
+		<h3>¿Olvidaste tu contraseña?</h3>
+		<p>Ingresa tu email para resetear tu password.</p>
 		<div class="form-group">
 			<input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email"/>
 		</div>
@@ -113,15 +111,13 @@
 	<!-- BEGIN REGISTRATION FORM -->
 	<form class="register-form" action="index.html" method="post">
 		<h3>Sign Up</h3>
-		<p class="hint">
-			 Enter your personal details below:
-		</p>
+		<!-- <p class="hint">Ingresa tu informacion personal:</p>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Full Name</label>
 			<input class="form-control placeholder-no-fix" type="text" placeholder="Full Name" name="fullname"/>
 		</div>
 		<div class="form-group">
-			<!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+			ie8, ie9 does not support html5 placeholder, so we just show field title for that
 			<label class="control-label visible-ie8 visible-ie9">Email</label>
 			<input class="form-control placeholder-no-fix" type="text" placeholder="Email" name="email"/>
 		</div>
@@ -372,9 +368,9 @@
 				<option value="ZM">Zambia</option>
 				<option value="ZW">Zimbabwe</option>
 			</select>
-		</div>
+		</div> -->
 		<p class="hint">
-			 Enter your account details below:
+			 Ingresa tu informacion de cuenta:
 		</p>
 		<div class="form-group">
 			<label class="control-label visible-ie8 visible-ie9">Username</label>
@@ -385,13 +381,13 @@
 			<input class="form-control placeholder-no-fix" type="password" autocomplete="off" id="register_password" placeholder="Password" name="password"/>
 		</div>
 		<div class="form-group">
-			<label class="control-label visible-ie8 visible-ie9">Re-type Your Password</label>
+			<label class="control-label visible-ie8 visible-ie9">Re-ingresa tu Password</label>
 			<input class="form-control placeholder-no-fix" type="password" autocomplete="off" placeholder="Re-type Your Password" name="rpassword"/>
 		</div>
 		<div class="form-group margin-top-20 margin-bottom-20">
 			<label class="check">
-			<input type="checkbox" name="tnc"/> I agree to the <a href="#">
-			Terms of Service </a> &amp; <a href="#"> Privacy Policy </a>
+			<input type="checkbox" name="tnc"/> Acepto los <a href="#">
+			Terminos de Servicios </a> &amp; <a href="#"> Politicas de Privacidad </a>
 			</label>
 			<div id="register_tnc_error">
 			</div>
