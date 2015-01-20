@@ -10,19 +10,27 @@
   </properties>
   
   <dependencies>
-  	<!-- AWS -->
+  	<!-- AWS JDK-->
   	<dependency>
 		<groupId>com.amazonaws</groupId>
 		<artifactId>aws-java-sdk</artifactId>
 		<version>1.9.14</version>
 	</dependency>
-	<!-- Spring -->
+	<!-- Spring Framework-->
 	<dependency>
   		<groupId>org.springframework</groupId>
 		<artifactId>spring-webmvc</artifactId>
 		<version>${org.springframework.version}</version>
   	</dependency>
+  	<!-- JavaServer Pages Standard Tag Library -->
+  	<dependency>
+		<groupId>jstl</groupId>
+		<artifactId>jstl</artifactId>
+		<version>1.2</version>
+	</dependency>
+  	
   </dependencies>
+  
   
   <build>
     <sourceDirectory>src</sourceDirectory>
