@@ -337,7 +337,7 @@
               </div>
               <div id="accordion1_2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Podrás llevar todo el proceso en nuestro portal de una manera simple y más productiva. Podrás ver el progreso de tus proyectos, revisar tus estadísticas o las invitaciones a capacitación para trabajo, subir archivos, comentar, etc.</p>
+                  <p>Podrás llevar todo el proceso en nuestro portal. Así, de una manera simple y más productiva podrás ver el progreso de tus proyectos, revisar tus estadísticas o las invitaciones a capacitación para trabajo, subir archivos, comentar, etc.</p>
                   <p>Nuestro sistema tiene como meta que hagas más en menos tiempo.</p>
                 </div>
               </div>
@@ -350,8 +350,8 @@
               </div>
               <div id="accordion1_3" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>¿Alguna vez te preguntaste cuánto tributarías a fin de año o cuáles son los beneficios que tienes al entrar a un trabajo formal? Tener las reglas bien claras en el ámbito económico y legal es tan importante como en tu especialidad.</p>
-                  <p>Tú mismo podrás simular cuánto tributar según tu sueldo y sabrás, con nuesteo asesor legal virtual, cuáles son tus deberes y derechos de ley. El conocmiento nos beneficia a todos: Empresarios, Mentores y Profesionales.</p>
+                  <p>¿Alguna vez te preguntaste cuánto tributarías a fin de año o cuáles son los beneficios que tendrías al entrar a un trabajo formal? Tener las reglas bien claras en el ámbito económico y legal es tan importante como en tu especialidad.</p>
+                  <p>Tú mismo podrás simular cuánto tributar según tu sueldo y sabrás, con nuestro asesor legal virtual, cuáles son tus deberes y derechos de ley. El conocmiento nos beneficia a todos: Empresarios, Mentores y Profesionales.</p>
                 </div>
               </div>
             </div>
