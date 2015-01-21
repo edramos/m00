@@ -54,7 +54,7 @@
         <!-- Logo BEGIN -->
         <div class="col-md-2 col-sm-2">
           <a class="scroll site-logo" href="#promo-block"><img src="assets/frontend/onepage/img/logo/red.png" alt="ATRABAJAR.PE"></a>
-        </div>
+        </dividido>
         <!-- Logo END -->
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
         <!-- Navigation BEGIN -->
@@ -95,7 +95,7 @@
               <div class="promo-like"><i class="fa fa-thumbs-up"></i></div>
               <div class="promo-like-text">
                 <h2>¡Vamos a hacerlo!</h2>
-                <p>Somos el puente para cruzar el "derecho de piso"<br> entre los centros de educación superior y un trabajo <a href="javascript:void(0);">de verdad</a></p>
+                <p>Somos el puente para cruzar el "derecho de piso"<br> entre los centros de educación superior y un trabajo <a href="javascript:void(0);">de verdad.</a></p>
               </div>
             </div>
             <div class="tp-caption large_bold_white fade"
@@ -203,7 +203,7 @@
   <div class="about-block content content-center" id="about">
     <div class="container">
       <h2><strong>aTrabajar</strong> Inspira</h2>
-      <h4>Capacítate antes de que el proyecto empiece</h4>
+      <h4>Capacítate antes de que el proyecto empiece.</h4>
       <div class="ab-trio">
         <img src="assets/frontend/onepage/img/trio.png" alt="" class="img-responsive">
         <div class="ab-cirlce ab-cirle-blue">
@@ -231,12 +231,12 @@
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-heart"></i>
           <h3>Encuentra y decide</h3>
-          <p>Buscador inteligente de profesionales, <br>mentores y empresas</p>
+          <p>Buscador inteligente de Profesionales, <br>Mentores y Empresas</p>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-signal"></i>
           <h3>Optimiza tu tiempo</h3>
-          <p>Gestión de la capacitación y desarrollo<br> online</p>
+          <p>Gestión de la Capacitación y Desarrollo<br> online</p>
         </div>
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-rocket"></i>
@@ -246,7 +246,7 @@
         <div class="col-md-3 col-sm-3 col-xs-12 item">
           <i class="fa fa-tablet"></i>
           <h3>Compartir haciendo</h3>
-          <p>Somos una <b>SaaS</b> laboral. <br> Redes, blogs en tu casa o móvil</p>
+          <p>Somos una <b>SaaS</b> laboral: <br> redes, blogs en tu casa o móvil</p>
         </div>
       </div>
     </div>
@@ -255,7 +255,7 @@
   <!-- Message block BEGIN -->
   <div class="message-block content content-center valign-center" id="message-block">
     <div class="valign-center-elem">
-      <h2>No es solo conseguir un trabajo, <strong>es sentirte orgulloso de eso</strong></h2>
+      <h2>No es solo conseguir un trabajo, <strong>es sentirte orgulloso de eso.</strong></h2>
       <em>aTrabajar.pe</em>
     </div>
   </div>
@@ -324,8 +324,8 @@
               </div>
               <div id="accordion1_1" class="panel-collapse collapse in">
                 <div class="panel-body">
-                  <p>Regístrate gratis como un Profesional, Mentor o Empresario; luego te sugeriremos las mejores opciones según lo que buscas. Así podrás decidir mejor dónde y con quién capacitarte para entrar a trabajar. Nosotros te apoyararemos en todo este proceso.</p>
-                  <p>Somos un ecosistema laboral que hace trabajar en equipo a los Profesionales, Mentores y Empresarios para mejora de todos, con un sistema que se autoalimenta y aprende de nuestras interacciones y necesidades.</p>
+                  <p>Regístrate gratis como un Profesional, Mentor o Empresario; luego te sugeriremos las mejores opciones según lo que buscas. Así podrás decidir mejor dónde y con quién capacitarte para entrar a trabajar. Nosotros te apoyaremos en todo este proceso.</p>
+                  <p>Somos un ecosistema laboral que hace trabajar en equipo a los Profesionales, Mentores y Empresarios para mejora de todos, con un sistema que se retroalimenta y aprende de nuestras interacciones y necesidades.</p>
                 </div>
               </div>
             </div>
@@ -337,7 +337,7 @@
               </div>
               <div id="accordion1_2" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Podrás llevar todo el proceso en nuestro portal. De una manera simple y más productiva, podrás ver el progreso de tus proyectos, revisar tus estadísticas o las invitaciones a capacitación para trabajo, subir archivos, comentar, etc.</p>
+                  <p>Podrás llevar todo el proceso en nuestro portal de una manera simple y más productiva. Podrás ver el progreso de tus proyectos, revisar tus estadísticas o las invitaciones a capacitación para trabajo, subir archivos, comentar, etc.</p>
                   <p>Nuestro sistema tiene como meta que hagas más en menos tiempo.</p>
                 </div>
               </div>
@@ -350,8 +350,8 @@
               </div>
               <div id="accordion1_3" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Alguna vez te preguntaste cuánto tributarías a fin de año o cuáles son los beneficios que tienes al entrar a un trabajo formal. Tener las reglas bien claras en el ámbito económico y legal es tan importante como en tu especialidad.</p>
-                  <p>Tú mismo podrás simular cuánto tributar según tu sueldo y sabrás con nuesteo asesor legal virtual cuáles son tus deberes y derechos de ley. El conocmiento nos benefia a todos: Empresarios, Mentores y Profesionales.</p>
+                  <p>¿Alguna vez te preguntaste cuánto tributarías a fin de año o cuáles son los beneficios que tienes al entrar a un trabajo formal? Tener las reglas bien claras en el ámbito económico y legal es tan importante como en tu especialidad.</p>
+                  <p>Tú mismo podrás simular cuánto tributar según tu sueldo y sabrás, con nuesteo asesor legal virtual, cuáles son tus deberes y derechos de ley. El conocmiento nos beneficia a todos: Empresarios, Mentores y Profesionales.</p>
                 </div>
               </div>
             </div>
@@ -363,7 +363,7 @@
               </div>
               <div id="accordion1_4" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Las buenas y malas experiencias laborales de los demás podrán ser compartidas en nuestra sistema y cada uno podrá poner su granito de arena para crecer juntos.</p>
+                  <p>Las buenas y malas experiencias laborales de los demás podrán ser compartidas en nuestro sistema y cada uno podrá poner su granito de arena para crecer juntos.</p>
                   <p>Tú decides qué compartir y con quiénes. Las posibilidades son infinitas en nuestra comunidad libre.</p>
                 </div>
               </div>
@@ -376,8 +376,8 @@
               </div>
               <div id="accordion1_5" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>Mucho de lo que aprendemos no lo hacemos necesariamente en una reunión física. Con nostros tendrás la posibilidad de capacitarte online con los Mentores, y los empresarios podrán llevar un control sobre cómo va la capacitación.</p>
-                  <p>El e-learning ha cambiado la manera cómo nos educamos. Nuestra plataforma está inspirada en Coursera y Standford Online, donde hemos tenido la suerte de también capacitarnos.</p>
+                  <p>Mucho de lo que aprendemos no lo hacemos necesariamente en una reunión presencial. Con nosotros tendrás la posibilidad de capacitarte online con los Mentores, y los empresarios podrán llevar un control sobre cómo va tu capacitación.</p>
+                  <p>El e-learning ha cambiado la manera cómo nos educamos. Nuestra plataforma está inspirada en Coursera y Standford Online, donde también hemos tenido la suerte de capacitarnos.</p>
                 </div>
               </div>
             </div>
@@ -389,8 +389,9 @@
               </div>
               <div id="accordion1_6" class="panel-collapse collapse">
                 <div class="panel-body">
-                  <p>En una empresa, si todos progresan, entonces la empresa también lo hara. Creemos que es lo mismo en una sociedad. Hasta ahora no se ha podido romper el mito del "derecho de piso" para los profesionales que tienen poca experiencia. Luego de mucho tiempo y dinero invertido, un empresario por fin tendrá el equipo de personas que hará que todo mejore. Es allí donde una empresa empieza a destacar.</p>
-                  <p>Pero la gran mayoria de empresas no lo consiguen y tienen que hacer algo para sobrevivir. Ese algo empieza por abusar de sus empleados, este es el derecho de piso que es ILEGAL, pero eso no es lo peor, lo peor es que ese derecho de piso alimenta el ciclo.</p>
+                  <p>En una empresa, si todos progresan, esta también lo hará. Creemos que sucede lo mismo en una sociedad.</p>
+				  <p>Hasta ahora no se ha podido romper el mito del "derecho de piso" para los profesionales que tienen poca experiencia. Además, las empresas ya han invertido mucho tiempo y dinero para conseguir a su personal estrella. Ahora, por fin un empresario tendrá el equipo de personas que hará que todo mejore. Ahí es donde una empresa empieza a destacar.</p>
+                  <p>Sin embargo, la gran mayoría de empresas no lo consiguen y tienen que hacer algo para sobrevivir. Ese algo empieza por abusar de sus empleados. Este es el derecho de piso, que además es ILEGAL. Pero lo peor de esta situación es que ese derecho de piso alimenta el ciclo.</p>
                   <p> Un profesional explotado quizás sea un líder explotador.</p>
                 </div>
               </div>
@@ -570,8 +571,8 @@
           <!-- BEGIN BOTTOM CONTACTS -->
           <h2>Contacto</h2>
           <address class="margin-bottom-20">
-            Av. Gregorio Escobedo 558 Dpto 1004<br>
-            Jesus Maria, Lima, PE<br>
+            Av. Gregorio Escobedo 558, dpto. 1004<br>
+            Jesús María, Lima, PE<br>
             Phone: (51) 949 546 515<br>
             Fax: (51) 949 546 515<br>
             Email: <a href="mailto:contacto@simularte.com">contacto@simularte.com</a><br>
