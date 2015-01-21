@@ -54,7 +54,7 @@
         <!-- Logo BEGIN -->
         <div class="col-md-2 col-sm-2">
           <a class="scroll site-logo" href="#promo-block"><img src="assets/frontend/onepage/img/logo/red.png" alt="ATRABAJAR.PE"></a>
-        </div>
+        </dividido>
         <!-- Logo END -->
         <a href="javascript:void(0);" class="mobi-toggler"><i class="fa fa-bars"></i></a>
         <!-- Navigation BEGIN -->
