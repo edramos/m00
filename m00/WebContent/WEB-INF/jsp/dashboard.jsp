@@ -1094,11 +1094,12 @@
 	
 	<!-- BEGIN CONTENT -->
 	<div class="page-content-wrapper">
-		<div class="page-content">
-			<!-- BEGIN PAGE HEAD -->
-			<div class="row no-margin">
-			
+	<div class="page-content">
+		<!-- BEGIN PAGE HEAD -->
+		<div class="row no-margin">
 			<div class="col-md-6">
+			<div class="col-md-12">
+			
 			<!-- BEGIN Portlet PORTLET-->
 			<div class="portlet light">
 				<div class="portlet-title">
@@ -1106,80 +1107,318 @@
 						<i class="icon-share font-green-sharp"></i>
 						<span class="caption-subject bold uppercase"> Proyectos</span>
 					</div>
-		
 					<div class="tools">
 						<a title="" data-original-title="" href="" class="collapse"></a>
 						<a title="" data-original-title="" href="" class="reload"></a>
 						<a title="" data-original-title="" href="javascript:;" class="fullscreen"></a>
 					</div>
-					
-					<!-- <div class="actions">
-						<div class="btn-group btn-group-devided" data-toggle="buttons">
-							<label class="btn btn-circle btn-transparent grey-salsa active">
-							<input type="radio" name="options" class="toggle" id="option1">Hoy</label>
-							<label class="btn btn-circle btn-transparent grey-salsa">
-							<input type="radio" name="options" class="toggle" id="option2">Semana</label>
-							<label class="btn btn-circle btn-transparent grey-salsa">
-							<input type="radio" name="options" class="toggle" id="option2">Mes</label>
-						</div>		
-					</div> -->
 				</div>
-				
 				
 				<div class="portlet-body">
 					<div class="table-scrollable table-scrollable-borderless">
 						<table class="table table-hover table-light">
 						<thead>
 						<tr class="uppercase">
-							<th colspan="2">MEMBER</th>
-							<th>Earnings</th>
-							<th>CASES</th>
-							<th>CLOSED</th>
+							<th>N°</th>
+							<th colspan="2">Estado</th>
+							<th>Sueldos</th>
+							<th>Plazas</th>
 							<th>RATE</th>
 						</tr>
 						</thead>
-						<tbody><tr>
-							<td class="fit"><img class="user-pic" src="assets/admin/layout3/img/avatar4.jpg"></td>
-							<td><a href="javascript:;" class="primary-link">Brain</a></td>
-							<td>$345</td>
-							<td>45</td>
-							<td>124</td>
-							<td><span class="bold theme-font-color">80%</span></td>
+						<tbody>
+						<tr>
+							<td><span class="bold theme-font-color">85</span></td>
+							<td class="fit"><i class="icon-paper-plane font-green-sharp"></i></td>
+							<td>Nuevo</td>
+							<td>S/. 2,500</td>
+							<td>750</td>
+							<td><span class="bold theme-font-color">70%</span></td>
 						</tr>
 						<tr>
-							<td class="fit"><img class="user-pic" src="assets/admin/layout3/img/avatar5.jpg"></td>
-							<td><a href="javascript:;" class="primary-link">Nick</a></td>
-							<td>$560</td>
-							<td>12</td>
-							<td>24</td>
-							<td><span class="bold theme-font-color">67%</span></td>
-						</tr>
-						<tr>
-							<td class="fit"><img class="user-pic" src="assets/admin/layout3/img/avatar6.jpg"></td>
-							<td><a href="javascript:;" class="primary-link">Tim</a></td>
-							<td>$1,345</td>
+							<td><span class="bold theme-font-color">7</span></td>
+							<td class="fit"><i class="icon-plane font-green-sharp"></i></td>
+							<td>Esperando</td>
+							<td>S/. 4,500</td>
 							<td>450</td>
-							<td>46</td>
-							<td><span class="bold theme-font-color">98%</span></td>
+							<td><span class="bold theme-font-color">10%</span></td>
 						</tr>
 						<tr>
-							<td class="fit"><img class="user-pic" src="assets/admin/layout3/img/avatar7.jpg"></td>
-							<td><a href="javascript:;" class="primary-link">Tom</a></td>
-							<td>$645</td>
-							<td>50</td>
-							<td>89</td>
-							<td><span class="bold theme-font-color">58%</span></td>
+							<td><span class="bold theme-font-color">12</span></td>
+							<td class="fit"><i class="icon-rocket font-green-sharp"></i></td>
+							<td>En proceso</td>
+							<td>S/. 3,500</td>
+							<td>425</td>
+							<td><span class="bold theme-font-color">13%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">18</span></td>
+							<td class="fit"><i class="icon-trophy font-green-sharp"></i></td>
+							<td>Finalizado</td>
+							<td>S/. 4,500</td>
+							<td>950</td>
+							<td><span class="bold theme-font-color">24%</span></td>
 						</tr>
 						</tbody>
 						</table>
+					</div>
+				</div>
+			</div>
+			<!-- END Portlet PORTLET-->
+			<!-- BEGIN Portlet PORTLET-->
+			<div class="portlet light">
+				<div class="portlet-title">
+					<div class="caption font-red-sunglo">
+						<i class="icon-users font-red-sunglo"></i>
+						<span class="caption-subject bold uppercase"> Propuestas</span>
+					</div>
+					<div class="tools">
+						<a title="" data-original-title="" href="" class="collapse"></a>
+						<a title="" data-original-title="" href="" class="reload"></a>
+						<a title="" data-original-title="" href="javascript:;" class="fullscreen"></a>
+					</div>
+				</div>
+				
+				<div class="portlet-body">
+					<div class="table-scrollable table-scrollable-borderless">
+						<table class="table table-hover table-light">
+						<thead>
+						<tr class="uppercase">
+							<th>N°</th>
+							<th colspan="2">Estado</th>
+							<th>Sueldos</th>
+							<th>Plazas</th>
+							<th>RATE</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td><span class="bold theme-font-color">85</span></td>
+							<td class="fit"><i class="icon-paper-plane font-green-sharp"></i></td>
+							<td>Nuevo</td>
+							<td>S/. 2,500</td>
+							<td>750</td>
+							<td><span class="bold theme-font-color">70%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">7</span></td>
+							<td class="fit"><i class="icon-plane font-green-sharp"></i></td>
+							<td>Abierta</td>
+							<td>S/. 4,500</td>
+							<td>450</td>
+							<td><span class="bold theme-font-color">10%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">12</span></td>
+							<td class="fit"><i class="icon-rocket font-green-sharp"></i></td>
+							<td>En Proceso</td>
+							<td>S/. 3,500</td>
+							<td>425</td>
+							<td><span class="bold theme-font-color">13%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">18</span></td>
+							<td class="fit"><i class="icon-trophy font-green-sharp"></i></td>
+							<td>Cerrada</td>
+							<td>S/. 4,500</td>
+							<td>950</td>
+							<td><span class="bold theme-font-color">24%</span></td>
+						</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- END Portlet PORTLET-->
+			<!-- BEGIN Portlet PORTLET-->
+			<div class="portlet light">
+				<div class="portlet-title">
+					<div class="caption font-blue-madison">
+						<i class="icon-speedometer font-blue-madison"></i>
+						<span class="caption-subject bold uppercase"> Ordenes</span>
+					</div>
+					<div class="tools">
+						<a title="" data-original-title="" href="" class="collapse"></a>
+						<a title="" data-original-title="" href="" class="reload"></a>
+						<a title="" data-original-title="" href="javascript:;" class="fullscreen"></a>
+					</div>
+				</div>
+				
+				<div class="portlet-body">
+					<div class="table-scrollable table-scrollable-borderless">
+						<table class="table table-hover table-light">
+						<thead>
+						<tr class="uppercase">
+							<th>N°</th>
+							<th colspan="2">Estado</th>
+							<th>Sueldos</th>
+							<th>Plazas</th>
+							<th>RATE</th>
+						</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td><span class="bold theme-font-color">85</span></td>
+							<td class="fit"><i class="icon-paper-plane font-green-sharp"></i></td>
+							<td>Nuevo</td>
+							<td>S/. 2,500</td>
+							<td>750</td>
+							<td><span class="bold theme-font-color">70%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">7</span></td>
+							<td class="fit"><i class="icon-plane font-green-sharp"></i></td>
+							<td>Abierta</td>
+							<td>S/. 4,500</td>
+							<td>450</td>
+							<td><span class="bold theme-font-color">10%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">12</span></td>
+							<td class="fit"><i class="icon-rocket font-green-sharp"></i></td>
+							<td>En Proceso</td>
+							<td>S/. 3,500</td>
+							<td>425</td>
+							<td><span class="bold theme-font-color">13%</span></td>
+						</tr>
+						<tr>
+							<td><span class="bold theme-font-color">18</span></td>
+							<td class="fit"><i class="icon-trophy font-green-sharp"></i></td>
+							<td>Cerrada</td>
+							<td>S/. 4,500</td>
+							<td>950</td>
+							<td><span class="bold theme-font-color">24%</span></td>
+						</tr>
+						</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+			<!-- END Portlet PORTLET-->
+			
+			</div>
+			</div>
+			
+			
+			<div class="col-md-6">
+			<!-- BEGIN Portlet PORTLET-->
+			<div class="portlet light">
+				<div class="portlet-title">
+					<div class="caption font-purple-wisteria">
+						<i class="icon-bubbles font-purple-wisteria"></i>
+						<span class="caption-subject bold uppercase"> Mensajes</span>
+					</div>
+					<div class="tools">
+						<a title="" data-original-title="" href="" class="collapse"></a>
+						<a title="" data-original-title="" href="" class="reload"></a>
+						<a title="" data-original-title="" href="javascript:;" class="fullscreen"></a>
+					</div>
+				</div>
+				
+				<div class="portlet-body">
+					
+						<div class="general-item-list">
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar4.jpg">
+										<a href="" class="item-name primary-link">Nick Larson</a>
+										<span class="item-label">3 hrs ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-success"></span> Open</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
 							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar3.jpg">
+										<a href="" class="item-name primary-link">Mark</a>
+										<span class="item-label">5 hrs ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-warning"></span> Pending</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat tincidunt ut laoreet.
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar6.jpg">
+										<a href="" class="item-name primary-link">Nick Larson</a>
+										<span class="item-label">8 hrs ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-primary"></span> Closed</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar7.jpg">
+										<a href="" class="item-name primary-link">Nick Larson</a>
+										<span class="item-label">12 hrs ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-danger"></span> Pending</span>
+								</div>
+								<div class="item-body">
+									 Consectetuer adipiscing elit Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar9.jpg">
+										<a href="" class="item-name primary-link">Richard Stone</a>
+										<span class="item-label">2 days ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-danger"></span> Open</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar8.jpg">
+										<a href="" class="item-name primary-link">Dan</a>
+										<span class="item-label">3 days ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-warning"></span> Pending</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-head">
+									<div class="item-details">
+										<img class="item-pic" src="assets/admin/layout3/img/avatar2.jpg">
+										<a href="" class="item-name primary-link">Larry</a>
+										<span class="item-label">4 hrs ago</span>
+									</div>
+									<span class="item-status"><span class="badge badge-empty badge-success"></span> Open</span>
+								</div>
+								<div class="item-body">
+									 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+								</div>
+							</div>
+						</div>
+					
 				</div>
 			</div>
 			<!-- END Portlet PORTLET-->
 			</div>
 			
-			</div>
-			<!-- END PAGE HEAD -->
+		</div>
+		<!-- END PAGE HEAD -->
+		
 			<!-- BEGIN PAGE BREADCRUMB -->
 			<ul class="page-breadcrumb breadcrumb hide">
 				<li><a href="#">Home</a><i class="fa fa-circle"></i></li>
