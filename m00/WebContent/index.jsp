@@ -558,7 +558,7 @@
         <!-- BEGIN BOTTOM ABOUT BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
           <h2>Nosotros</h2>
-          <p>Somos como una banda de rock que trabaja por conseguir su meta sin poder explicarlo bien, es como un latido, es una necesidad el poder vencer el derecho de piso, no buscamos un trabajo para ti, buscamos que ganes orgullo por lo que haces.</p>
+          <p>Somos como una banda de rock que trabaja por conseguir su meta sin poder explicarlo bien, es como un latido, es una necesidad de hacer un cambio positivo, no buscamos un trabajo para ti, buscamos que ganes orgullo por lo que haces.</p>
           <p>No trabajamos sólo por dinero y trabajamos juntos, ese es nuestro secreto.</p>
           <a href="http://info.flagcounter.com/WDY8"><img src="http://s01.flagcounter.com/count/WDY8/bg_313030/txt_B0B0B0/border_313030/columns_5/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/" alt="Flag Counter" border="0"></a>
         </div>
