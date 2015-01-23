@@ -282,7 +282,8 @@
           <img src="assets/frontend/onepage/img/people/img7-large.jpg" alt="Elena Taylor" class="img-responsive">
           <h3>Ricardo López</h3>
           <em>IT</em>
-          <p>Lorem ipsum dolor amet, tempor ut labore magna tempor dolore</p>
+          <p><b>Soy voluntario antes que me lo pregunten</b><br>
+          Los sueños se hacen trabajando duro, aprendes mucho del buen humor y determinación de una mascota.</p>
           <div class="tb-socio">
             <a href="javascript:void(0);" class="fa fa-facebook"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
@@ -293,7 +294,8 @@
           <img src="assets/frontend/onepage/img/people/img8-large.jpg" alt="Cris Nilson" class="img-responsive">
           <h3>Juan Pablo Rivera</h3>
           <em>Investigación</em>
-          <p>Lorem ipsum dolor amet, tempor ut labore magna tempor dolore</p>
+          <p><b>Arte y Ciencia van siempre juntas</b><br>
+          Lo que más me gusta de la Investigación no es sólo su disciplina, sino su lado genial y pasional.</p>
           <div class="tb-socio">
             <a href="javascript:void(0);" class="fa fa-facebook"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
@@ -556,15 +558,15 @@
         <!-- BEGIN BOTTOM ABOUT BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
           <h2>Nosotros</h2>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam sit nonummy nibh euismod tincidunt ut laoreet dolore magna aliquarm erat sit volutpat. Nostrud exerci tation ullamcorper suscipit lobortis nisl aliquip  commodo consequat. </p>
-          <p>Duis autem vel eum iriure dolor vulputate velit esse molestie at dolore.</p>
+          <p>Somos como una banda de rock que trabaja por conseguir su meta sin poder explicarlo bien, es como un latido, es una necesidad el poder vencer el derecho de piso, no buscamos un trabajo para ti, buscamos que ganes orgullo por lo que haces.</p>
+          <p>No trabajamos sólo por dinero y trabajamos juntos, ese es nuestro secreto.</p>
           <a href="http://info.flagcounter.com/WDY8"><img src="http://s01.flagcounter.com/count/WDY8/bg_313030/txt_B0B0B0/border_313030/columns_5/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/" alt="Flag Counter" border="0"></a>
         </div>
         <!-- END BOTTOM ABOUT BLOCK -->
         <!-- BEGIN TWITTER BLOCK --> 
         <div class="col-md-4 col-sm-6 pre-footer-col">
-          <h2 class="margin-bottom-0">Latest Tweets</h2>
-          <a class="twitter-timeline" href="https://twitter.com/twitterapi" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="455411516829736961" data-chrome="noheader nofooter noscrollbar noborders transparent">Loading tweets by @keenthemes...</a>      
+          <h2 class="margin-bottom-0">Últimos Tweets</h2>
+          <a class="twitter-timeline" href="https://twitter.com/Forbes_es" data-tweet-limit="2" data-theme="dark" data-link-color="#57C8EB" data-widget-id="558532317682364416" data-chrome="noheader nofooter noscrollbar noborders transparent">Loading tweets by @simularte...</a>      
         </div>
         <!-- END TWITTER BLOCK -->
         <div class="col-md-4 col-sm-6 pre-footer-col">
