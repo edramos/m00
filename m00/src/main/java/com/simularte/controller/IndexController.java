@@ -1,5 +1,7 @@
 package com.simularte.controller;
 
+import javax.servlet.http.HttpSession;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,10 +21,10 @@ public class IndexController {
 	}
 	
 	@RequestMapping(value = "login", method = RequestMethod.POST)
-	public String login(@RequestParam("username")String username, @RequestParam("password")String password){
+	public String login(@RequestParam("username")String username, @RequestParam("password")String password, HttpSession session){
 		String path = "login";
 		
-		if(us.login(username, password)){
+		if(us.login(username, password, session)){
 			path = "dashboard";
 		}
 		
