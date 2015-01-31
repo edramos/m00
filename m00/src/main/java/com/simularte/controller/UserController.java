@@ -1,5 +1,7 @@
 package com.simularte.controller;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,12 +23,21 @@ public class UserController {
 		String path = "";
 
 		if(us.registration(usuario, tipo)){
-			System.out.println("TRUE FUI");
-			model.addAttribute("msg","success");
+			model.addAttribute("msg", "success");
 			path = "login";
 		}else{
-			System.out.println("FALSE FUI");
-			model.addAttribute("msg","error");
+			model.addAttribute("msg", "error");
+			path = "login";
+		}
+		
+		return path;
+	}
+	
+	@RequestMapping(value = "toLogout")
+	public String toLogout(HttpServletRequest req){
+		String path = "";
+		
+		if(us.logout(req)){
 			path = "login";
 		}
 		

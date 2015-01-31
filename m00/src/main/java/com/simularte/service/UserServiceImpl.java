@@ -4,7 +4,8 @@ import javax.persistence.EntityExistsException;
 import javax.persistence.EntityManager;
 import javax.persistence.NoResultException;
 import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
+import javax.persistence.TypedQuery;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.springframework.stereotype.Service;
@@ -20,22 +21,24 @@ public class UserServiceImpl implements UserService{
 
 	@PersistenceContext EntityManager em;
 	
-	public boolean login(String username, String password, HttpSession session){
+	public boolean login(String username, String password, HttpServletRequest req){
 		boolean result = false;
 		
-		Query q = em.createQuery("SELECT u.idUsuario,u.email,u.estado FROM Usuario u WHERE u.email =:email AND u.password =:password AND u.estado='enabled'");
-		q.setParameter("email", username);
-		q.setParameter("password", password);
+		TypedQuery<Usuario> tq = em.createQuery("SELECT u FROM Usuario u WHERE u.email =:email AND u.password =:password AND u.estado='enabled'", Usuario.class);
+		tq.setParameter("email", username);
+		tq.setParameter("password", password);
 		
 		try{
-			Usuario usuarioSR = (Usuario)q.getSingleResult();
-			
+			Usuario usuarioSR = tq.getSingleResult();
+			HttpSession session = req.getSession(true);
+				
 			session.setAttribute("iduser", usuarioSR.getIdUsuario());
-			
+						
 			result = true;
 			
 		}catch(NoResultException e){
 			e.printStackTrace();
+			System.out.println("No encontre nada");
 		}
 		
 		return result;
@@ -82,6 +85,17 @@ public class UserServiceImpl implements UserService{
 			
 		}catch (Exception e){
 			e.printStackTrace();
+		}
+		
+		return result;
+	}
+	
+	public boolean logout(HttpServletRequest req){
+		boolean result = false;
+		
+		if(req.getSession() != null){
+			req.getSession().invalidate();
+			result = true;
 		}
 		
 		return result;

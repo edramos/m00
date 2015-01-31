@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page session="true" %>
 <!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
 <!--[if !IE]><!-->
@@ -463,7 +465,7 @@
 								<i class="icon-lock"></i> Lock Screen </a>
 							</li>
 							<li>
-								<a href="login.html">
+								<a href="toLogout">
 								<i class="icon-key"></i> Log Out </a>
 							</li>
 						</ul>
@@ -1120,7 +1122,7 @@
 						<thead>
 						<tr class="uppercase">
 							<th>N°</th>
-							<th colspan="2">Estado</th>
+							<th colspan="2">Estado<c:out value="${sessionScope.iduser}"/></th>
 							<th>Sueldos</th>
 							<th>Plazas</th>
 							<th>RATE</th>
