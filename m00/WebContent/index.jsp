@@ -267,39 +267,39 @@
       <h4>Ninguno de nosotros vale más que todos juntos</h4>
       <div class="row">
         <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img6-large.jpg" alt="Marcus Doe" class="img-responsive">
+          <img src="assets/frontend/onepage/img/people/img6-large.jpg" alt="Eduardo" class="img-responsive">
           <h3>Eduardo Ramos</h3>
           <em>Founder</em>
           <p><b>Emprendedor y "hacedor de problemas".</b><br>
           Me gusta crear software simple, para ayudar a las personas a ganar satisfacción, dinero y tranquilidad.</p>
           <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
+            <a href="http://pe.linkedin.com/pub/ed-ramos/29/644/342/" class="fa fa-linkedin" target="_blank"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
             <a href="javascript:void(0);" class="fa fa-google-plus"></a>
           </div>
         </div>
         <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img7-large.jpg" alt="Elena Taylor" class="img-responsive">
+          <img src="assets/frontend/onepage/img/people/img7-large.jpg" alt="Ricardo" class="img-responsive">
           <h3>Ricardo López</h3>
           <em>IT</em>
           <p><b>Soy voluntario antes que me lo pregunten</b><br>
           Los sueños se hacen trabajando duro, aprendes mucho del buen humor y determinación de una mascota.</p>
           <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
+            <a href="javascript:void(0);" class="fa fa-linkedin" target="_blank"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
             <a href="javascript:void(0);" class="fa fa-google-plus"></a>
           </div>
         </div>
         <div class="col-md-4 item">
-          <img src="assets/frontend/onepage/img/people/img8-large.jpg" alt="Cris Nilson" class="img-responsive">
+          <img src="assets/frontend/onepage/img/people/img8-large.jpg" alt="Juan Pablo" class="img-responsive">
           <h3>Juan Pablo Rivera</h3>
           <em>Investigación</em>
           <p><b>Arte y Ciencia van siempre juntas</b><br>
           Lo que más me gusta de la Investigación no es sólo su disciplina, sino su lado genial y pasional.</p>
           <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-facebook"></a>
+            <a href="http://pe.linkedin.com/pub/juan-pablo-rivera-taboada/a8/a22/669/en" class="fa fa-linkedin" target="_blank"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
-            <a href="javascript:void(0);" class="fa fa-google-plus"></a>
+            <a href="https://plus.google.com/112277035305318180107/posts" class="fa fa-google-plus" target="_blank"></a>
           </div>
         </div>
       </div>
