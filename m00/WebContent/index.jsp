@@ -274,7 +274,7 @@
           Me gusta crear software simple, para ayudar a las personas a ganar satisfacción, dinero y tranquilidad.</p>
           <div class="tb-socio">
             <a href="http://pe.linkedin.com/pub/ed-ramos/29/644/342/" class="fa fa-linkedin" target="_blank"></a>
-            <a href="javascript:void(0);" class="fa fa-twitter"></a>
+            <a href="https://twitter.com/simularte" class="fa fa-twitter" target="_blank"></a>
             <a href="javascript:void(0);" class="fa fa-google-plus"></a>
           </div>
         </div>
@@ -285,7 +285,7 @@
           <p><b>Soy voluntario antes que me lo pregunten</b><br>
           Los sueños se hacen trabajando duro, aprendes mucho del buen humor y determinación de una mascota.</p>
           <div class="tb-socio">
-            <a href="javascript:void(0);" class="fa fa-linkedin" target="_blank"></a>
+            <a href="http://pe.linkedin.com/pub/ricardo-lópez/b2/622/969/es" class="fa fa-linkedin" target="_blank"></a>
             <a href="javascript:void(0);" class="fa fa-twitter"></a>
             <a href="javascript:void(0);" class="fa fa-google-plus"></a>
           </div>
@@ -298,7 +298,7 @@
           Lo que más me gusta de la Investigación no es sólo su disciplina, sino su lado genial y pasional.</p>
           <div class="tb-socio">
             <a href="http://pe.linkedin.com/pub/juan-pablo-rivera-taboada/a8/a22/669/en" class="fa fa-linkedin" target="_blank"></a>
-            <a href="javascript:void(0);" class="fa fa-twitter"></a>
+            <a href="https://twitter.com/Quingnam" class="fa fa-twitter" target="_blank"></a>
             <a href="https://plus.google.com/112277035305318180107/posts" class="fa fa-google-plus" target="_blank"></a>
           </div>
         </div>
