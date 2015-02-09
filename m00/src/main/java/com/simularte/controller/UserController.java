@@ -43,4 +43,9 @@ public class UserController {
 		
 		return path;
 	}
+	
+	@RequestMapping("toMyProfile")
+	public String toMyProfile(){
+		return "profesional/myProfile";
+	}
 }

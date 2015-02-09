@@ -1,6 +1,7 @@
 package com.simularte.model;
 
 import java.sql.Timestamp;
+import java.util.Collection;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -8,6 +9,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.OneToMany;
 import javax.persistence.OneToOne;
 
 @Entity
@@ -19,6 +21,10 @@ public class Profesional {
 	//References
 	@OneToOne(cascade = CascadeType.ALL) @JoinColumn(name = "idusuario")
 	private Usuario usuario;
+	@OneToMany(mappedBy = "experienciaProfesional")
+	private Collection<Experiencia> expProf;
+	@OneToMany(mappedBy = "conocimientoProfesional")
+	private Collection<Conocimiento> conProf;
 	
 	@Column(name = "rolprimario", length = 30, nullable = true)
 	private String rolPrimario;
@@ -26,6 +32,8 @@ public class Profesional {
 	private String otrosRoles;
 	@Column(name = "aniosexperiencia", nullable = true)
 	private int aniosExperiencia;
+	@Column(name = "buscandopor", length = 30, nullable = true)
+	private String buscandoPor;
 	@Column(name = "tipoinstitucion", length = 30, nullable = true)
 	private String tipoInstitucion;
 	@Column(name = "nombreinstitucion", length = 60, nullable = true)
@@ -54,6 +62,12 @@ public class Profesional {
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
 	}
+	public Collection<Experiencia> getExpProf() {
+		return expProf;
+	}
+	public void setExpProf(Collection<Experiencia> expProf) {
+		this.expProf = expProf;
+	}
 	public String getRolPrimario() {
 		return rolPrimario;
 	}
@@ -71,6 +85,12 @@ public class Profesional {
 	}
 	public void setAniosExperiencia(int aniosExperiencia) {
 		this.aniosExperiencia = aniosExperiencia;
+	}
+	public String getBuscandoPor() {
+		return buscandoPor;
+	}
+	public void setBuscandoPor(String buscandoPor) {
+		this.buscandoPor = buscandoPor;
 	}
 	public String getTipoInstitucion() {
 		return tipoInstitucion;
