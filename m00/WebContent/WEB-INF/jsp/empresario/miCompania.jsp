@@ -84,7 +84,6 @@
 <script type="text/javascript" src="assets/admin/layout4/scripts/demo.js"></script>
 <script src="assets/global/plugins/icheck/icheck.min.js"></script>
 <script src="assets/admin/pages/scripts/form-icheck.js"></script>
-
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
 jQuery(document).ready(function() {    
