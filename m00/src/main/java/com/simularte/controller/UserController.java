@@ -43,9 +43,42 @@ public class UserController {
 		
 		return path;
 	}
-	
+	// MI COMPAÑIA
+	@RequestMapping("toMyCompany")
+	public String toMyCompany(HttpServletRequest req){
+		String path = null;
+		
+		switch(req.getSession().getAttribute("tipo").toString()){
+		case "empresario":
+			path = "empresario/miCompania";
+			break;
+		}
+		
+		return path;
+	}
+	//MI PERFIL
 	@RequestMapping("toMyProfile")
-	public String toMyProfile(){
-		return "profesional/myProfile";
+	public String toMyProfile(HttpServletRequest req){
+		String path = null;
+		
+		switch(req.getSession().getAttribute("tipo").toString()){
+		case "empresario":
+			path = "empresario/perfil";
+			break;
+		}
+		
+		return path;
+	}
+	
+	@RequestMapping("toDashboard")
+	public String toDashboard(HttpServletRequest req){
+		String path = null;
+		
+		switch(req.getSession().getAttribute("tipo").toString()){
+		case "empresario":
+			path = "empresario/dashboard";
+			break;
+		}
+		return path;
 	}
 }

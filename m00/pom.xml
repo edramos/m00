@@ -52,7 +52,12 @@
 		<artifactId>mysql-connector-java</artifactId>
 		<version>5.1.34</version>
 	</dependency>
-  	
+	<!-- Geocoder -->
+	<dependency>
+		<groupId>com.google.code.geocoder-java</groupId>
+		<artifactId>geocoder-java</artifactId>
+		<version>0.16</version>
+	</dependency>  	
   </dependencies>
   
   

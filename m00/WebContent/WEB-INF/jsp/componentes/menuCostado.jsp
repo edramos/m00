@@ -12,7 +12,7 @@
 		<!-- DOC: Set data-auto-speed="200" to adjust the sub menu slide up/down speed -->
 		<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
 			<li class="start active ">
-				<a href="#"><i class="icon-home"></i><span class="title">Dashboard</span></a>
+				<a href="toDashboard"><i class="icon-home"></i><span class="title">Dashboard</span></a>
 			</li>
 			<li>
 				<a href="javascript:;"><i class="icon-basket"></i>

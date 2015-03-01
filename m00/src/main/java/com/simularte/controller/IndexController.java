@@ -25,7 +25,14 @@ public class IndexController {
 		String path = "login";
 		
 		if(us.login(username, password, req)){
-			path = "dashboard";
+			switch(req.getSession().getAttribute("tipo").toString()){
+			case "empresario":
+				path = "empresario/dashboard";
+				break;
+			}
+			
+			
+			
 		}
 		
 		return path;

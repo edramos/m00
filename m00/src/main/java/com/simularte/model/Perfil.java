@@ -44,6 +44,8 @@ public class Perfil {
 	private String celularPrimario;
 	@Column(name = "celularsecundario", length = 30, nullable = true)
 	private String celularSecundario;
+	@Column(length = 30, nullable = false)
+	private String tipo;
 	@Column(name = "fechacreacion", nullable = false)
 	private Timestamp fechaCreacion;
 	@Column(length = 30, nullable = false)
@@ -145,5 +147,11 @@ public class Perfil {
 	}
 	public void setUsuario(Usuario usuario) {
 		this.usuario = usuario;
+	}
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
 	}
 }

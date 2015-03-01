@@ -696,6 +696,28 @@ Error state for WYSIWYG Editors
 }
 
 /***
+Bootstrap GtreeTable
+***/
+.gtreetable .dropdown-menu {
+  margin-top: 0px;
+}
+.gtreetable .dropdown-menu:after, .gtreetable .dropdown-menu:before {
+  display: none !important;
+}
+.gtreetable .node-action .form-control {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+}
+.gtreetable .node-icon-selected,
+.gtreetable .node-icon-handle,
+.gtreetable .node-icon-ce,
+.gtreetable .node-icon-type {
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/***
 Bootbox
 ***/
 .bootbox .bootbox-close-button {

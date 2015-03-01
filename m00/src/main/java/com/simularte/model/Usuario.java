@@ -21,6 +21,8 @@ public class Usuario {
 	private Profesional profesional;
 	@OneToOne(mappedBy = "usuario")
 	private Archivo archivo;
+	@OneToOne(mappedBy = "usuario")
+	private Empresa empresa;
 		
 	@Column(length = 60, nullable = false)
 	private String email;

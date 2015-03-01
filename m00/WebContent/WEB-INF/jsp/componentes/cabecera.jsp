@@ -5,9 +5,7 @@
 		<!-- BEGIN LOGO -->
 		<div class="page-logo">
 			<a href="#"><img src="assets/frontend/onepage/img/logo/red.png" alt="" class="logo-default"/></a>
-			<div class="menu-toggler sidebar-toggler">
-				<!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header -->
-			</div>
+			<div class="menu-toggler sidebar-toggler"><!-- DOC: Remove the above "hide" to enable the sidebar toggler button on header --></div>
 		</div>
 		<!-- END LOGO -->
 		
@@ -20,14 +18,9 @@
 			<!-- BEGIN TOP NAVIGATION MENU -->
 			<div class="top-menu">
 				<ul class="nav navbar-nav pull-right">
-					<li class="separator hide">
-					</li>
-					
-					<li class="separator hide">
-					</li>
-					
-					<li class="separator hide">
-					</li>
+					<li class="separator hide"></li>
+					<li class="separator hide"></li>
+					<li class="separator hide"></li>
 					
 					<!-- BEGIN USER LOGIN DROPDOWN -->
 					<!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
@@ -38,8 +31,8 @@
 						<img alt="" class="img-circle" src="assets/admin/layout4/img/avatar9.jpg"/>
 						</a>
 						<ul class="dropdown-menu dropdown-menu-default">
-							<li><a href="toMyProfile"><i class="icon-user"></i> Mi Perfil </a></li>
-							<li><a href="page_calendar.html"><i class="icon-calendar"></i> Mi Calendario </a></li>
+							<li><a href="toMyCompany"><i class="icon-user"></i> Mi Compañia </a></li>
+							<li><a href="toMyProfile"><i class="icon-calendar"></i> Mi Perfil </a></li>
 							<li><a href="inbox.html"><i class="icon-envelope-open"></i> Mi Inbox <span class="badge badge-danger">3 </span></a></li>
 							<li><a href="page_todo.html"><i class="icon-rocket"></i> Mis Tareas <span class="badge badge-success">7 </span></a></li>
 							<li class="divider"></li>

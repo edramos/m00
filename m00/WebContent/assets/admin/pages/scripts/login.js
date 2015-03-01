@@ -154,12 +154,25 @@ var Login = function() {
             ignore: "",
             rules: {
 
-                tipo: {
+                fullname: {
                     required: true
                 },
                 email: {
                     required: true,
                     email: true
+                },
+                address: {
+                    required: true
+                },
+                city: {
+                    required: true
+                },
+                country: {
+                    required: true
+                },
+
+                username: {
+                    required: true
                 },
                 password: {
                     required: true
@@ -174,11 +187,9 @@ var Login = function() {
             },
 
             messages: { // custom messages for radio buttons and checkboxes
-            	tipo: {required: "Seleccione un tipo de cuenta."},
-                tnc: {required: "Por favor acepte los TS&P primero."},
-                email: {required: "Este campo es requerido.", email: "Ingrese un email valido."},
-                password: {required: "Este campo es requerido"},
-                rpassword: {equalTo: "Ingrese el mismo password."},
+                tnc: {
+                    required: "Please accept TNC first."
+                }
             },
 
             invalidHandler: function(event, validator) { //display error alert on form submit   

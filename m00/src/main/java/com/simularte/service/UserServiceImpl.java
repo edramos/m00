@@ -11,6 +11,7 @@ import javax.servlet.http.HttpSession;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.simularte.model.Empresa;
 import com.simularte.model.Perfil;
 import com.simularte.model.Profesional;
 import com.simularte.model.Usuario;
@@ -24,15 +25,35 @@ public class UserServiceImpl implements UserService{
 	public boolean login(String username, String password, HttpServletRequest req){
 		boolean result = false;
 		
-		TypedQuery<Usuario> tq = em.createQuery("SELECT u FROM Usuario u WHERE u.email =:email AND u.password =:password AND u.estado='enabled'", Usuario.class);
-		tq.setParameter("email", username);
-		tq.setParameter("password", password);
+		TypedQuery<Usuario> tqUsuario = em.createQuery("SELECT u FROM Usuario u WHERE u.email =:email AND u.password =:password AND u.estado='enabled'", Usuario.class);
+		tqUsuario.setParameter("email", username);
+		tqUsuario.setParameter("password", password);
 		
 		try{
-			Usuario usuarioSR = tq.getSingleResult();
+			Usuario usuarioSR = tqUsuario.getSingleResult();
 			HttpSession session = req.getSession(true);
 				
 			session.setAttribute("iduser", usuarioSR.getIdUsuario());
+			
+			if(usuarioSR.getIdUsuario() != null){
+				System.out.println("ID USER: " + usuarioSR.getIdUsuario());
+				
+				TypedQuery<Perfil> tqPerfil = em.createQuery("SELECT p FROM Perfil p JOIN p.usuario u WHERE u.idUsuario =:idusuario", Perfil.class);
+				tqPerfil.setParameter("idusuario", usuarioSR.getIdUsuario());
+				
+				Perfil profileSR = tqPerfil.getSingleResult();
+				session.setAttribute("tipo", profileSR.getTipo());
+				
+				switch(profileSR.getTipo()){
+				case "empresario":
+					TypedQuery<Empresa> tqEmpresa = em.createQuery("SELECT e FROM Empresa e JOIN e.usuario u WHERE u.idUsuario =:idusuario", Empresa.class);
+					tqEmpresa.setParameter("idusuario", usuarioSR.getIdUsuario());
+					
+					Empresa empresaSR = tqEmpresa.getSingleResult();
+					session.setAttribute("idOrganizacion", empresaSR.getIdEmpresa());
+					break;
+				}
+			}
 						
 			result = true;
 			
