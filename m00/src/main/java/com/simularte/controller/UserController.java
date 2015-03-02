@@ -63,7 +63,7 @@ public class UserController {
 		
 		switch(req.getSession().getAttribute("tipo").toString()){
 		case "empresario":
-			path = "empresario/perfil";
+			path = "empresario/myProfile";
 			break;
 		}
 		

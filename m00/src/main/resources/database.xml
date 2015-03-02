@@ -9,12 +9,9 @@
 	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
-		<property name="url" value="jdbc:mysql://localhost:3306/atrabajar"/>
-		<property name="username" value="root"/>
-		<property name="password" value="1234"/>
-		<!-- <property name="url" value="#{systemProperties['DATABASE_URL']}"/> -->
-		<!-- <property name="username" value="#{systemProperties['DATABASE_USERNAME']}"/> -->
-		<!-- <property name="password" value="#{systemProperties['DATABASE_PASSWORD']}"/> -->
+		<property name="url" value="#{systemProperties['DATABASE_URL']}"/>
+		<property name="username" value="#{systemProperties['DATABASE_USERNAME']}"/>
+		<property name="password" value="#{systemProperties['DATABASE_PASSWORD']}"/>
 		<property name="validationQuery" value="SELECT 1"/>
 		<property name="timeBetweenEvictionRunsMillis" value="300000"/>
 		<property name="testWhileIdle" value="true"/>		
