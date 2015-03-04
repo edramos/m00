@@ -15,9 +15,11 @@
 <jsp:include page="componentes/menuCostado.jsp"/>
 	
 <!-- BEGIN CONTENT -->
-<div class="page-content-wrapper"><div class="page-content">
+<div class="page-content-wrapper">
+<div class="page-content">
 	
-</div></div>
+</div>
+</div>
 <!-- END CONTENT -->
 </div>
 <!-- END CONTAINER -->

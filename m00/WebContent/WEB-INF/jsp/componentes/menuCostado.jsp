@@ -16,12 +16,12 @@
 			</li>
 			<li>
 				<a href="javascript:;"><i class="icon-basket"></i>
-				<span class="title">Proyectos</span>
+				<span class="title">Convocatorias</span>
 				<span class="arrow "></span>
 				</a>
 				<ul class="sub-menu">
-					<li><a href="#"><i class="icon-home"></i>Crear Proyecto</a></li>
-					<li><a href="#"><i class="icon-basket"></i>Buscar Proyecto</a></li>
+					<li><a href="toCrearConvocatoria"><i class="icon-home"></i>Crear Convocatoria</a></li>
+					<li><a href="#"><i class="icon-basket"></i>Buscar Convocatoria</a></li>
 				</ul>
 			</li>
 			<li>
